@@ -8,12 +8,7 @@
     align-items: center;
     margin-left: auto;
 
-    &__list {
-            list-style: none;
-            display: flex;
-            align-items: center;
-            margin-left: 93px;
-        }
+   
     &__item--heder-current {
                     position: relative;
                 }
@@ -28,9 +23,7 @@
             background-color: #2196f3;
             border-radius: 2px;
         }
-    &__item--current {
-                    color: var(--accent-color);
-                }
+        
 }
 
 
@@ -75,11 +68,12 @@
     padding-inline-start: 0;
 }
 
-.header-nav__list {
+.header-nav__list-contact {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     margin-left: auto;
+    list-style: none;
 }
 
 .icon-mail {
@@ -100,5 +94,16 @@
 .header-contact:hover {
     color: #2196f3;
 }
+
+  .header-nav__list {
+     list-style: none;
+     display: flex;
+     align-items: center;
+     margin-left: 93px;
+ }
+
+ .header-nav__item--current {
+     color: var(--accent-color);
+ }
 
 
